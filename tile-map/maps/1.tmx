@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="10" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" source="../tilesets/SEASONS_TILESET_00_D.tsx"/>
+ <layer id="2" name="Tile Layer 1" width="10" height="8">
+  <data encoding="csv">
+85,85,82,211,211,211,211,81,85,85,
+139,139,139,139,139,139,139,139,139,139,
+154,155,155,155,155,155,155,155,155,156,
+254,254,254,254,254,254,254,254,254,254,
+254,220,254,122,123,141,254,220,254,254,
+254,254,254,154,155,156,254,254,254,122,
+254,254,254,254,254,254,254,220,254,138,
+254,220,254,122,123,141,254,254,254,154
+</data>
+ </layer>
+</map>
