@@ -15,7 +15,7 @@ SECTION "Game code", ROM0
 Start:
  ; Copy the sprite data into VRAM
  ld hl, $9000 + 16
- ld de, rupee
+ ld de, heart
  ld b, 16
  
 copy_loop:
@@ -43,3 +43,4 @@ copy_loop:
 
 smiley_sprite: db $00, $00, $00, $00, $24, $24, $00, $00, $81, $81, $7e, $7e, $00, $00, $00, $00
 rupee: db $0f, $0f, $11, $11, $21, $21, $47, $49, $4e, $72, $4c, $74, $78, $78
+heart: db $36, $36, $49, $7f, $55, $6b, $5d, $63, $2a, $36, $14, $1c, $08, $08
