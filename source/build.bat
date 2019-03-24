@@ -16,4 +16,3 @@ echo fixing...
 	del main.o
 
 :end
-	del main.o
